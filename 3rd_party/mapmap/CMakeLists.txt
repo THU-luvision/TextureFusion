@@ -1,0 +1,5 @@
+file(GLOB_RECURSE mapmap_srcs *.cpp)
+file(GLOB_RECURSE mapmap_hdrs *.h *.hpp)
+add_library(mapmap SHARED ${mapmap_srcs} ${mapmap_hdrs})
+target_include_directories(mapmap PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+set_target_properties(mapmap PROPERTIES PUBLIC_HEADER ${CMAKE_CURRENT_SOURCE_DIR}/full.h)

@@ -1,0 +1,18 @@
+#cmakedefine01 OPENNI2_FOUND
+#cmakedefine01 LIBREALSENSE_FOUND
+#cmakedefine01 LIBFREENECT2_FOUND
+
+#include "Wrapper.h"
+#include "DatasetWrapper.hpp"
+
+#if OPENNI2_FOUND
+#include "OpenNI2/OpenNI2Wrapper.hpp"
+#endif
+
+#if LIBREALSENSE_FOUND
+#include "RealSense/RealSenseWrapper.hpp"
+#endif
+
+#if LIBFREENECT2_FOUND
+#include "Kinect/KinectWrapper.hpp"
+#endif
