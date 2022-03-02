@@ -112,8 +112,8 @@ The basefolder should contain:
 2.  associate.txt for input rgbd images
 3.  groundtruth.txt for TUM RGBD dataset groundtruth data.
 
-An example datafolder is provided [here](https://153.35.185.228/opensource_data/TextureFusion/synthesis.zip) 
-and [here](https://153.35.185.228/opensource_data/TextureFusion/xtion.zip)
+An example datafolder is provided [here](http://153.35.185.228:81/opensource_data/TextureFusion/synthesis.zip) 
+and [here](http://153.35.185.228:81/opensource_data/TextureFusion/xtion.zip)
 * $ParametersFile: input parameters, an example is given as settings.yaml
 
 * Resolution: Reconstruction voxel resolution, ranges from 0.005 to 0.04
